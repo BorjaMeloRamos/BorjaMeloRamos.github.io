@@ -33,7 +33,7 @@ Formatear un texto **puede** ser entretenido si prestas atención a *los videos 
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Mi pagina de prueba</title>
+    Mi pagina de prueba
   </head>
   <body>
     <img src="https://emeradiofm.com/wp-content/uploads/2019/11/burela.jpg" alt="Mi imagen de prueba">
