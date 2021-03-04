@@ -45,24 +45,24 @@ Formatear un texto **puede** ser entretenido si prestas atención a *los videos 
 **EJEMPLO DE CODIGO** Cliente http para hacer peticiones a servicios externos. En Typescrip
 
 export class HttpClient {
-private readonly circuitBreaker: CircuitBreakerProxy;
+    private readonly circuitBreaker: CircuitBreakerProxy;
 
-constructor() {
-const breakDuration = TimeSpansInMilliSeconds.oneMinute;
-const maxFailedCalls = 5;
-const logger = new NoLogger();
-const leakTimeSpanInMilliSeconds = TimeSpansInMilliSeconds.tenMinutes;
-this.circuitBreaker = new CircuitBreakerProxy(breakDuration, maxFailedCalls, leakTimeSpanInMilliSeconds, logger);
-}
+    constructor() {
+        const breakDuration = TimeSpansInMilliSeconds.oneMinute;
+        const maxFailedCalls = 5;
+        const logger = new NoLogger();
+        const leakTimeSpanInMilliSeconds = TimeSpansInMilliSeconds.tenMinutes;
+        this.circuitBreaker = new CircuitBreakerProxy(breakDuration, maxFailedCalls, leakTimeSpanInMilliSeconds, logger);
+    }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-async post<T>(url: string, data?: any, options?: HttpClientOptions): Promise<HttpResponse<T>> {
-const postRequest = async (): Promise<HttpResponse<T>> => axios.post(url, data, options);
-return this.circuitBreaker.execute(postRequest, Guid.createEmpty());
-}
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    async post<T>(url: string, data?: any, options?: HttpClientOptions): Promise<HttpResponse<T>> {
+        const postRequest = async (): Promise<HttpResponse<T>> => axios.post(url, data, options);
+        return this.circuitBreaker.execute(postRequest, Guid.createEmpty());
+    }
 
-async get<T>(url: string, options?: HttpClientOptions): Promise<HttpResponse<T>> {
-const getRequest = async (): Promise<HttpResponse<T>> => axios.get(url, options);
-return this.circuitBreaker.execute(getRequest, Guid.createEmpty());
-}
+    async get<T>(url: string, options?: HttpClientOptions): Promise<HttpResponse<T>> {
+        const getRequest = async (): Promise<HttpResponse<T>> => axios.get(url, options);
+        return this.circuitBreaker.execute(getRequest, Guid.createEmpty());
+    }
 }
