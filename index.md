@@ -33,7 +33,7 @@ Formatear un texto **puede** ser entretenido si prestas atención a *los videos 
 <html>
   <head>
     <meta charset="utf-8">
-    Mi pagina de prueba
+    <strong>Mi imagen de prueba:</strong>
   </head>
   <body>
     <img src="https://emeradiofm.com/wp-content/uploads/2019/11/burela.jpg" alt="Mi imagen de prueba">
@@ -42,27 +42,21 @@ Formatear un texto **puede** ser entretenido si prestas atención a *los videos 
 
 
 
-**EJEMPLO DE CODIGO** Cliente http para hacer peticiones a servicios externos. En Typescrip
+**EJEMPLO DE CODIGO python** El siguiente ejemplo muestra una implementación de cola FIFO en la que almacenamos valores enteros comprendidos entre 1 y 100 y posteriormente los leemos de forma secuencial. Funciona en cualquier versión de Python igual o superior a 3.5
 
-export class HttpClient {
-    private readonly circuitBreaker: CircuitBreakerProxy;
 
-    constructor() {
-        const breakDuration = TimeSpansInMilliSeconds.oneMinute;
-        const maxFailedCalls = 5;
-        const logger = new NoLogger();
-        const leakTimeSpanInMilliSeconds = TimeSpansInMilliSeconds.tenMinutes;
-        this.circuitBreaker = new CircuitBreakerProxy(breakDuration, maxFailedCalls, leakTimeSpanInMilliSeconds, logger);
-    }
+from multiprocessing import Queue
+import random
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    async post<T>(url: string, data?: any, options?: HttpClientOptions): Promise<HttpResponse<T>> {
-        const postRequest = async (): Promise<HttpResponse<T>> => axios.post(url, data, options);
-        return this.circuitBreaker.execute(postRequest, Guid.createEmpty());
-    }
+queue_time = Queue()
 
-    async get<T>(url: string, options?: HttpClientOptions): Promise<HttpResponse<T>> {
-        const getRequest = async (): Promise<HttpResponse<T>> => axios.get(url, options);
-        return this.circuitBreaker.execute(getRequest, Guid.createEmpty());
-    }
-}
+print("Saving elements at queue...")
+for i in range (5):
+    random_time = random.randint(1, 100)
+    queue_time.put(random_time)
+    print("%d added at queue" % random_time)
+
+print("Reading elements from queue...")
+while not queue_time.empty():
+    time_read = queue_time.get()
+    print("%d read from queue" % time_read)
