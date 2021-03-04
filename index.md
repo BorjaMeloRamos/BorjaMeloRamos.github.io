@@ -42,7 +42,8 @@ Formatear un texto **puede** ser entretenido si prestas atención a *los videos 
 
 
 
-**EJEMPLO DE CODIGO python** El siguiente ejemplo muestra una implementación de cola FIFO en la que almacenamos valores enteros comprendidos entre 1 y 100 y posteriormente los leemos de forma secuencial. Funciona en cualquier versión de Python igual o superior a 3.5
+**EJEMPLO DE CODIGO python:** 
+*El siguiente ejemplo muestra una implementación de cola FIFO en la que almacenamos valores enteros comprendidos entre 1 y 100 y posteriormente los leemos de forma secuencial. Funciona en cualquier versión de Python igual o superior a 3.5*
 
 
 from multiprocessing import Queue
