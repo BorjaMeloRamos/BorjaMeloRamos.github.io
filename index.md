@@ -43,21 +43,22 @@ Formatear un texto **puede** ser entretenido si prestas atención a *los videos 
 
 
 **EJEMPLO DE CODIGO python:** 
-*El siguiente ejemplo muestra una implementación de cola FIFO en la que almacenamos valores enteros comprendidos entre 1 y 100 y posteriormente los leemos de forma secuencial. Funciona en cualquier versión de Python igual o superior a 3.5*
+*El siguiente ejemplo muestra una implementación de cola FIFO en la que almacenamos valores enteros comprendidos entre 1 y 100 y posteriormente los leemos de forma secuencial. Funciona en cualquier versión de Python igual o superior a 3.5
+Para realizar el programa solo tendrías que usar el siguiente código*
 
 
-from multiprocessing import Queue
-import random
+`from multiprocessing import Queue`
+`import random`
 
-queue_time = Queue()
+`queue_time = Queue()`
 
-print("Saving elements at queue...")
-for i in range (5):
-    random_time = random.randint(1, 100)
-    queue_time.put(random_time)
-    print("%d added at queue" % random_time)
+`print("Saving elements at queue...")`
+`for i in range (5):`
+    `random_time = random.randint(1, 100)`
+    `queue_time.put(random_time)`
+    `print("%d added at queue" % random_time)`
 
-print("Reading elements from queue...")
-while not queue_time.empty():
-    time_read = queue_time.get()
-    print("%d read from queue" % time_read)
+`print("Reading elements from queue...")`
+`while not queue_time.empty():`
+    `time_read = queue_time.get()`
+    `print("%d read from queue" % time_read)`
