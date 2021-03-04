@@ -39,8 +39,9 @@ Formatear un texto **puede** ser entretenido si prestas atención a *los videos 
     <img src="https://emeradiofm.com/wp-content/uploads/2019/11/burela.jpg" alt="Mi imagen de prueba">
   </body>
 </html>
-
-
+<br>
+<br>
+<br>
 
 **EJEMPLO DE CODIGO python:** 
 *El siguiente ejemplo muestra una implementación de cola FIFO en la que almacenamos valores enteros comprendidos entre 1 y 100 y posteriormente los leemos de forma secuencial. Funciona en cualquier versión de Python igual o superior a 3.5
@@ -62,3 +63,8 @@ Para realizar el programa solo tendrías que usar el siguiente código*
 `while not queue_time.empty():`
     `time_read = queue_time.get()`
     `print("%d read from queue" % time_read)`
+<br>
+<br>
+<br>
+
+<p><a href="https://github.com/BorjaMeloRamos/BorjaMeloRamos.github.io/blob/a18867b703d44985a51505adddf329ee29f6ec7a/Referencias.md">Pagina WEB Referencias.md.</a> </p>
