@@ -30,7 +30,6 @@ Formatear un texto **puede** ser entretenido si prestas atención a *los videos 
 </blockquote>
 
 
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
