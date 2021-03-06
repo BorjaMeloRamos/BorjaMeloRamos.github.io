@@ -23,7 +23,7 @@ Formatear un texto **puede** ser entretenido si prestas atención a *los videos 
 
 >Buscamos una noticia de interes y de actualidad.
 "Todos contra China en inteligencia artificial: la Comisión de Seguridad Nacional de EEUU pide una alianza con la UE para hacerles frente". 
-[PABLO RODRÍGUEZ @Pabrodri -Xakata-](https://www.xataka.com/pro/todos-china-inteligencia-artificial-comision-seguridad-nacional-eeuu-pide-alianza-ue-para-hacerles-frente "NOTICIA")
+["NOTICIA" PABLO RODRÍGUEZ @Pabrodri -Xakata-](https://www.xataka.com/pro/todos-china-inteligencia-artificial-comision-seguridad-nacional-eeuu-pide-alianza-ue-para-hacerles-frente "NOTICIA")
 
 
 
@@ -61,6 +61,7 @@ Para realizar el programa solo tendrías que usar el siguiente código*
 <br>
 
 Prueba para hacer una tabla:
+
 Markdown | VSC | Github
 --- | --- | ---
 *Primero* | `Segundo` | **Tercero**
