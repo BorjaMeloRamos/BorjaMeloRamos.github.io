@@ -22,8 +22,8 @@ Formatear un texto **puede** ser entretenido si prestas atención a *los videos 
 >Para introducir una cita con enlace:
 
 >Buscamos una noticia de interes y de actualidad.
-"Todos contra China en inteligencia artificial: la Comisión de Seguridad Nacional de EEUU pide una alianza con la UE para hacerles frente". 
-["NOTICIA" PABLO RODRÍGUEZ @Pabrodri -Xakata-](https://www.xataka.com/pro/todos-china-inteligencia-artificial-comision-seguridad-nacional-eeuu-pide-alianza-ue-para-hacerles-frente "NOTICIA")
+["Todos contra China en inteligencia artificial: la Comisión de Seguridad Nacional de EEUU pide una alianza con la UE para hacerles frente".
+NOTICIA de PABLO RODRÍGUEZ @Pabrodri -Xakata-](https://www.xataka.com/pro/todos-china-inteligencia-artificial-comision-seguridad-nacional-eeuu-pide-alianza-ue-para-hacerles-frente "NOTICIA")
 
 
 
