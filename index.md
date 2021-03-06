@@ -73,5 +73,6 @@ Markdown | VSC | Github
 <center> 
 
 > # Borja Melo Ramos: 
+
 ![alt text](https://media.giphy.com/media/1MTLxzwvOnvmE/giphy.gif "minions") 
 </center>
