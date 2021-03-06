@@ -57,7 +57,9 @@ Para realizar el programa solo tendrías que usar el siguiente código*
 `while not queue_time.empty():`
     `time_read = queue_time.get()`
     `print("%d read from queue" % time_read)`
+
 <br>
+
 Prueba para hacer una tabla:
 Markdown | VSC | Github
 --- | --- | ---
