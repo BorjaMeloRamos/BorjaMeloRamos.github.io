@@ -62,10 +62,11 @@ Para realizar el programa solo tendrías que usar el siguiente código*
 
 Prueba para hacer una tabla:
 
-Markdown | VSC | Github
---- | --- | ---
-*Primero* | `Segundo` | **Tercero**
-1 | 2 | 3
+| Markdown | VSC | Github |
+| --- | --- | --- |
+| *Primero* | `Segundo` | **Tercero** |
+| 1 | 2 | 3 |
+
 <br>
 
 <p><a href="https://github.com/BorjaMeloRamos/BorjaMeloRamos.github.io/blob/a18867b703d44985a51505adddf329ee29f6ec7a/Referencias.md">Mi Página WEB Referencias.md.</a> </p>
