@@ -26,7 +26,6 @@ Formatear un texto **puede** ser entretenido si prestas atención a *los videos 
   "Todos contra China en inteligencia artificial: la Comisión de Seguridad Nacional de EEUU pide una alianza con la UE para hacerles frente". </p>
 
 [PABLO RODRÍGUEZ @Pabrodri -Xakata-](https://www.xataka.com/pro/todos-china-inteligencia-artificial-comision-seguridad-nacional-eeuu-pide-alianza-ue-para-hacerles-frente "NOTICIA")
-
 </blockquote>
 
 <br>
@@ -60,6 +59,7 @@ Para realizar el programa solo tendrías que usar el siguiente código*
     `time_read = queue_time.get()`
     `print("%d read from queue" % time_read)`
 <br>
+
 Prueba para hacer una tabla:
 Markdown | VSC | Github
 --- | --- | ---
@@ -70,7 +70,7 @@ Markdown | VSC | Github
 <p><a href="https://github.com/BorjaMeloRamos/BorjaMeloRamos.github.io/blob/a18867b703d44985a51505adddf329ee29f6ec7a/Referencias.md">Mi Página WEB Referencias.md.</a> </p>
  
  
-> <span  style="font-family:Papyrus; font-size:3em; color:red">  Borja Melo Ramos:</span>
+> # Borja Melo Ramos:
 
 ![alt text][logo]
 
