@@ -68,11 +68,9 @@ Markdown | VSC | Github
 <br>
 
 <p><a href="https://github.com/BorjaMeloRamos/BorjaMeloRamos.github.io/blob/a18867b703d44985a51505adddf329ee29f6ec7a/Referencias.md">Mi Página WEB Referencias.md.</a> </p>
-
-
-<center> 
-
+ 
 > # Borja Melo Ramos: 
 
-![alt text](https://media.giphy.com/media/1MTLxzwvOnvmE/giphy.gif "minions") 
-</center>
+![alt text][logo]
+
+[logo]: https://media.giphy.com/media/1MTLxzwvOnvmE/giphy.gif "Minions"
